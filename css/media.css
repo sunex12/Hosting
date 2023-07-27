@@ -5,7 +5,7 @@
 
 @media (max-width: 1300px) {
     [class*="__container"] {
-        max-width: 950px;
+        max-width: 1150px;
     }
 }
 
@@ -19,5 +19,13 @@
     [class*="__container"] {
         max-width: none;
         margin: 0px 15px;
+    }
+}
+
+/* --header------------------------------------------ */
+
+@media(max-width: 1300px) {
+    .header__burger {
+        display: flex;
     }
 }
