@@ -98,15 +98,34 @@ body {
 }
 
 .header__container {
-    padding: 41px 0px 0px 0px;
+    padding: 41px 101px 0px 38px;
 }
+
 .nav {
     display: flex;
     align-items: center;
 }
 
 .header__logo {
+    margin: 0px 65px 0px 0px;
+}
 
+.header__list-inside {
+    display: flex;
+    align-items: center;
+    margin: 0px 198px 0px 135px;
+}
+
+.header__list-inside li {
+}
+
+.header__list-inside a {
+    color: #000;
+    font-size: 15px;
+}
+
+.header__list-inside li:not(:last-child) {
+    margin: 0px 33px 0px 0px;
 }
 
 .header__list {
@@ -114,5 +133,31 @@ body {
     align-items: center;
 }
 
+.header__list li {
+    font-size: 15px;
+}
+
+.header__list a {
+    color: #000;
+}
+
+
+
 .header__phone {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: flex-end;
+}
+
+.header__phone img {
+    margin: 0px 6px 0px 0px;
+}
+
+.header__phone:before {
+    content: '';
+    width: 1px;
+    height: 19px;
+    flex-shrink: 0;
+    background: #DAD8D8;
+    margin: 0px 30px 0px 0px;
 }
