@@ -140,7 +140,7 @@ body {
     flex-shrink: 0;
     border-radius: 10px;
     background: #B00000;
-    display: flex;
+    display: block;
     margin: 4px auto -4px;
 }
 
@@ -216,3 +216,4 @@ body {
     top: 50%;
     transform: rotate(45deg) translate(0, 50%);
 }
+
