@@ -36,3 +36,24 @@ change.addEventListener('click', function(event){
         change.classList.toggle('active');
     }
 })
+
+
+const basic = document.querySelector('.ready__tariff li:first-child');
+const premium = document.querySelector('.ready__tariff li:last-child');
+
+
+function colorChange(event) {
+    if (event.target === premium & !premium.classList.contains('active')) {
+        premium.classList.add('active');
+        basic.classList.add('active');
+    } else if (event.target === basic & basic.classList.contains('active')) {
+        premium.classList.remove('active');
+        basic.classList.remove('active');
+    }
+}
+
+basic.addEventListener('click', colorChange);
+premium.addEventListener('click', colorChange);
+
+
+
