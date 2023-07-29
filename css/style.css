@@ -242,20 +242,20 @@ body {
 }
 
 .hosting__container {
-    display: flex;
-}
-
-.hosting__main {
-    margin: 0px 0px 0px 38px;
+    max-width: 100%; 
 }
 
 .hosting__nav {
     position: relative;
+    margin: 0px 0px 0px 38px;
 }
 
-.hosting__nav::after {
-    content: url();
-   
+.hosting__nav::before {
+    content: url(../img-hosting/hosting/line.svg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 9px 0px 0px 0px;
 }
 
 .hosting__list {
@@ -273,8 +273,88 @@ body {
     font-size: 15px;
 }
 
+.hosting__flex {
+    display: flex;
+    margin: 0px 0px 0px 38px;
+}
+
+.hosting__flex h1 {
+    color: var(--text-title, #2E2E2E);
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77.5px;
+    max-width: 608px;
+    margin: 33px 81px 0px 0px;
+}
+
+.hosting__flex p {
+    color: var(--text-body, #808080);
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 28px; 
+    letter-spacing: 0.8px;
+    max-width: 448px;
+    margin: 34px 0px 0px 0px;
+}
+
 .main-hosting__buttons {
+    margin: 70px 0px 0px 0px;
+}
+
+.main-hosting__buttons a:first-child {
+    color: var(--text-white, #FFF);
+    margin: 0px 20px 0px 0px;
+    box-shadow: 0px 0px 64px 0px rgba(176, 0, 0, 0.30);
+    background: #B00000;
+    padding: 12px 13.5px;
+}
+
+.main-hosting__buttons a {
+    color: var(--base-black, #000);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    border-radius: 8px;
+    border: 1px solid var(--base-black, #000);
+    padding: 12px 18px;
+    transition: all 0.3s ease 0s;
+}
+
+.main-hosting__buttons a:first-child:hover {
+    background: #ffffff;
+    color: #B00000;
+    box-shadow: 0px 0px 64px 0px rgba(0, 0, 0, 0);
+}
+
+.main-hosting__buttons a:hover {
+    background: #2E2E2E;
+    color: var(--text-white, #FFF);
 }
 
 .hosting__picture {
+    position: relative;
+    max-width: 501px;
+}
+
+.hosting__picture img {
+    max-width: 100%;
+}
+
+.hosting__picture img:not(:last-child) {
+    position: absolute;
+}
+
+.hosting__picture img:nth-child(1) {
+    top: 303px;
+    left: -26px;
+}
+
+.hosting__picture img:nth-child(2) {
+    top: 63px;
+    right: -25px;
+}
+
+.hosting__picture img:nth-child(3) {
+    top: 391px;
+    right: -25px;
 }

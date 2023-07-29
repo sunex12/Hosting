@@ -39,6 +39,9 @@
     .header__logo {
         flex: 1 1 auto;
     }
+    .header__logo a:last-child {
+        display: none;
+    }
     .header__logo a:first-child {
         margin: 0px 0px 0px 0px;
     }
@@ -83,3 +86,104 @@
     }
 }
 
+@media(max-width: 1300px) {
+    .hosting__nav {
+        position: relative;
+        margin: 0px 0px 0px 0px;
+    }
+    .hosting__flex {
+        margin: 0px 0px 0px 0px;
+    }
+    .hosting__flex h1 {
+        font-size: 48px;
+        margin: 20px 0px 0px 0px;
+    }
+    .hosting__flex p {
+        margin: 20px 0px 0px 0px;
+    }
+    .main-hosting__buttons {
+        margin: 50px 0px 0px 0px;
+    }
+    .hosting__picture img:nth-child(1) {
+        top: 240px;
+        left: -26px;
+    }
+    .hosting__picture img:nth-child(2) {
+        top: 50px;
+        right: -25px;
+    }
+    .hosting__picture img:nth-child(3) {
+        top: 310px;
+        right: -25px;
+    }
+}
+
+@media(max-width: 991.98px) {
+    .hosting__flex {
+        flex-wrap: wrap;
+    }
+    .hosting__picture {
+        margin: 50px 0px 0px 0px;
+    }
+}
+
+@media(max-width: 767.98px) {
+    .hosting__flex h1 {
+        font-size: 44px;
+        max-width: 508px;
+        line-height: 70px;
+    }
+}
+
+@media(max-width: 466.98px) {
+    .hosting {
+        margin: 60px 0px 0px 0px;
+    }
+    .hosting__flex h1 {
+        font-size: 36px;
+        max-width: 508px;
+        line-height: 55px;
+    }
+    .hosting__flex p {
+        font-size: 15px;
+    }
+    .hosting__list a {
+        font-size: 14px;
+    }
+    .hosting__list li:first-child a {
+        font-size: 14px;
+    }
+    .hosting__list {
+        gap: 16px;
+    }
+    .main-hosting__buttons {
+        margin: 40px 0px 0px 0px;
+    }
+    .main-hosting__buttons a:first-child {
+        max-width: 180px;
+        margin: 0px 0px 20px 0px;
+        display: block;
+    }
+    .main-hosting__buttons a {
+        max-width: 180px;
+        display: block;
+    }
+    .main-hosting__buttons a:first-child:hover {
+        background: #B00000;
+        color: var(--text-white, #FFF);
+        box-shadow: 0px 0px 64px 0px rgba(0, 0, 0, 0);
+    }
+    .main-hosting__buttons a:hover {
+        background: transparent;
+        color: var(--base-black, #000);
+    }
+    .hosting__picture img:nth-child(1) {
+        display: none;
+    }
+    .hosting__picture img:nth-child(2) {
+        display: none;
+    }
+    .hosting__picture img:nth-child(3) {
+        display: none;
+    }
+}
