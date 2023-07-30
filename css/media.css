@@ -61,6 +61,12 @@
         gap: 30px;
         animation: burgerAnimation 0.3s;
     }
+    .display {
+        display: flex;
+    }
+    .header__list a {
+        color: #fff;
+    }
     @keyframes burgerAnimation {
         0% {
             opacity: 0;
@@ -873,7 +879,7 @@
     }
     .awesome__button img {
         margin: 0px 5px 0px 0px;
-        padding: 0px 0px 0px 12px;
+        padding: 0px 0px 0px 10px;
     }
     .awesome__button a:last-child {
         padding: 8px 10px 8px 0px;
