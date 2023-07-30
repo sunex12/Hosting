@@ -55,4 +55,16 @@ basic.addEventListener('click', colorChange);
 premium.addEventListener('click', colorChange);
 
 
+const button = document.querySelector('.awesome__button');
 
+button.addEventListener('mouseenter', function() {
+    if (window.innerWidth > 466.98) {
+         button.style.background = '#830202';
+    }
+})
+
+button.addEventListener('mouseleave', function() {
+    if (window.innerWidth > 466.98) {
+        button.style.background = '#B00000';
+    }
+})
