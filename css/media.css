@@ -836,14 +836,14 @@
     }
     .awesome__button {
         margin: 20px auto;
-        max-width: 200px;
+        max-width: 210px;
     }
     .awesome__button img {
         margin: 0px 7px 0px 0px;
         padding: 0px 0px 0px 14px;
     }
     .awesome__button a:last-child {
-        padding: 10px 12px 10px 0px
+        padding: 10px 10px 10px 0px
     }
 }
 
@@ -875,7 +875,7 @@
     }
     .awesome__button {
         margin: 20px auto;
-        max-width: 190px;
+        max-width: 170px;
     }
     .awesome__button img {
         margin: 0px 5px 0px 0px;
