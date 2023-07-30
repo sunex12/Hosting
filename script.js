@@ -33,7 +33,6 @@ const change = document.querySelector('.ready__mane-change div');
 change.addEventListener('click', function(event){
     if (event.target === change || event.target === ellipse) {
         ellipse.classList.toggle('active');
-        change.classList.toggle('active');
     }
 })
 
