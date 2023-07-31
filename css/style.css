@@ -954,7 +954,6 @@ body {
     max-width: 100%;
     margin: 0px 9px 0px 0px;
     padding: 0px 0px 0px 16px;
-    cursor: pointer;
 }
 
 .awesome__button a:last-child {
@@ -963,7 +962,7 @@ body {
     line-height: 24px;
     color: var(--text-white, #FFF);
     padding: 12px 16px 11px 0px;
-    cursor: pointer;
+    display: block;
 }
 
 .awesome__img img {
@@ -984,4 +983,81 @@ body {
 .awesome__box img:nth-child(3) {
     left: -25px;
     bottom: 88px;
+}
+
+/* --footer-------------------------------------------- */
+
+.footer {
+    margin: 110px 0px 0px 0px;
+    background: #B00000;
+}
+
+.footer__container {
+    display: flex;
+    align-items: center;
+    padding: 64px 27px 80px 30px;
+    flex-wrap: wrap;
+}
+
+.footer__mane img {
+    max-width: 100%;
+}
+
+.footer__mane p {
+    color: var(--text-disable, #E6E6E6);
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 32px; 
+    max-width: 296px;
+    margin: 16px 0px 0px 0px;
+}
+
+.footer__nav {
+    display: flex;
+}
+
+.footer__nav ul {
+    margin: 0px 0px 0px 120px;
+}
+
+.footer__nav li {
+    color: var(--text-white, #FFF);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 24px; 
+    margin: 24px 0px 0px 0px;
+}
+
+.footer__nav a {
+    color: var(--text-disable, #E6E6E6);
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 32px; 
+}
+
+.footer__nav a:hover {
+    text-decoration: underline;
+}
+
+.footer__link a {
+    display: flex;
+    align-items: center;
+    margin: 104px 0px 0px 0px;
+}
+
+.footer__link a:hover {
+    text-decoration: underline;
+}
+
+.footer__link p {
+    color: var(--text-white, #FFF);
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 32px; 
+}
+
+.footer__link img {
+    max-width: 100%;
+    margin: 0px 7px;
 }
