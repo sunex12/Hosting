@@ -948,6 +948,7 @@ body {
     max-width: 208px;
     margin: 40px auto;
     transition: all 0.3s ease 0s;
+    justify-content: center;
 }
 
 .awesome__button img {

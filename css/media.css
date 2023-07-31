@@ -837,6 +837,7 @@
     .awesome__button {
         margin: 20px auto;
         max-width: 210px;
+        justify-content: center;
     }
     .awesome__button img {
         margin: 0px 7px 0px 0px;
