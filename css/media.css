@@ -776,6 +776,7 @@
     }
     .awesome__button {
         margin: 30px auto;
+        justify-content: center;
     }
     .awesome__box img:nth-child(1) {
         top: 0px;
@@ -876,7 +877,7 @@
     }
     .awesome__button {
         margin: 20px auto;
-        max-width: 220px;
+        max-width: 180px;
         justify-content: center;
     }
     .awesome__button img {
