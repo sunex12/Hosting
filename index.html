@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Inter:regular,500,600,700,800&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/animate.min.css">
     <title>Hosting</title>
 </head>
 <body>
@@ -99,7 +100,7 @@
             <section class="blazing">
                 <div class="blazing__container">
                     <h2 class="visually-hidden">benefits</h2>
-                    <div class="blazing__block">
+                    <div class="blazing__block wow animate__animated animate__fadeInUp">
                         <img src="img-hosting/blazing/01.png" alt="01">
                         <h2>99.9% Uptime</h2>
                         <p>
@@ -107,7 +108,7 @@
                             Downtime not only costs you lost visitors but also damages your reputation and search engine rankings.
                         </p>
                     </div>
-                    <div class="blazing__block">
+                    <div class="blazing__block wow animate__animated animate__fadeInUp">
                         <img src="img-hosting/blazing/02.png" alt="02">
                         <h2>Blazing Fast Web Hosting</h2>
                         <p>
@@ -115,7 +116,7 @@
                             Downtime not only costs you lost visitors but also damages your reputation and search engine rankings.
                         </p>
                     </div>
-                    <div class="blazing__block">
+                    <div class="blazing__block wow animate__animated animate__fadeInUp">
                         <img src="img-hosting/blazing/03.png" alt="03">
                         <h2>Free SSL Certificates</h2>
                         <p>
@@ -123,7 +124,7 @@
                             Downtime not only costs you lost visitors but also damages your reputation and search engine rankings.
                         </p>
                     </div>
-                    <div class="blazing__block">
+                    <div class="blazing__block wow animate__animated animate__fadeInUp">
                         <img src="img-hosting/blazing/04.png" alt="04">
                         <h2>24x7 Friendly Support</h2>
                         <p>
@@ -154,7 +155,7 @@
                         </ul>
                    </div>
                    <div class="ready__options">
-                        <div class="ready__option">
+                        <div class="ready__option wow animate__animated animate__fadeInUp">
                             <h3>Starter</h3>
                             <p>with all your customers via all conversation channels in one central dashboard.</p>
                             <dl>
@@ -174,7 +175,7 @@
                                 <li>Softaculous</li>
                             </ul>
                         </div>
-                        <div class="ready__option">
+                        <div class="ready__option wow animate__animated animate__fadeInUp">
                             <h3>Standard</h3>
                             <p>with all your customers via all conversation channels in one central dashboard.</p>
                             <dl>
@@ -194,7 +195,7 @@
                                 <li>Softaculous</li>
                             </ul>
                         </div>
-                        <div class="ready__option">
+                        <div class="ready__option wow animate__animated animate__fadeInUp">
                             <h3>Suprem</h3>
                             <p>with all your customers via all conversation channels in one central dashboard.</p>
                             <dl>
@@ -224,7 +225,7 @@
                         <h2>Real Stories from Real Customers</h2>
                         <p>Get inspired by these stories.</p>
                     </div>
-                    <blockquote class="real__jpnl">
+                    <blockquote class="real__jpnl wow animate__animated animate__fadeInRight">
                         <img src="img-hosting/real/mini-design.svg" alt="mini-design">
                         <img src="img-hosting/real/JPNL.png" alt="jpnl">
                         <p>
@@ -235,7 +236,7 @@
                         <cite>Jane Cooper</cite>
                         <p>CEO, JPNL</p>
                     </blockquote>
-                    <blockquote class="real__CLI">
+                    <blockquote class="real__CLI wow animate__animated animate__fadeInLeft">
                         <img src="img-hosting/real/mini-design.svg" alt="mini-design">
                         <img src="img-hosting/real/CLI.png" alt="CLI">
                         <p>
@@ -246,7 +247,7 @@
                         <cite>Floyd Miles</cite>
                         <p>Vice President, CLI</p>
                     </blockquote>
-                    <blockquote class="real__LeeveOn">
+                    <blockquote class="real__LeeveOn wow animate__animated animate__fadeInRight">
                         <img src="img-hosting/real/mini-design.svg" alt="mini-design">
                         <img src="img-hosting/real/LeeveOn.png" alt="LeeveOn">
                         <p>
@@ -280,7 +281,7 @@
             <section class="awesome">
                 <div class="awesome__container">
                     <div class="awesome__box">
-                        <h1>We're here to make your website awesome.</h1>
+                        <h1 class="wow animate__animated animate__zoomIn">We're here to make your website awesome.</h1>
                      <div class="awesome__button">
                         <a href="#">
                              <img src="img-hosting/awesome/whatsapp.svg" alt="whatsapp">
@@ -350,6 +351,11 @@
         </footer>
     </div>
     
+    
     <script src="script.js"></script>
+    <script src="wow.min.js"></script>
+    <script>
+        new WOW().init();
+        </script>
 </body>
 </html>
